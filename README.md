@@ -14,4 +14,3 @@ rails server
 
 C'est bon ! Tu peux acceder au site <a href="http://localhost:3000/">avec ce lien!</a>
 
-Sinon, si tu es un flemmard, tu peux acceder au site avec <a href="https://nocookie.herokuapp.com">Heroku!</a>
