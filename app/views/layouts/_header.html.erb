@@ -1,0 +1,25 @@
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href= <%= root_path %> >Acceuil</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href= <%= new_user_path %> >Inscription</a>
+  </li>
+  <li class="nav-item">
+
+    <% if logged_in? %>
+      <div class="btn">
+        <div class="text-white">
+          <%= link_to "Déconnexion", logout_path, method: :delete %>
+        </div>
+      </div>
+    <% else %>
+      <div class="btn">
+        <div class="text-white">
+          <%= link_to "Connexion", login_path %>
+        </div>
+      </div>
+    <% end %>
+
+  </li>
+</ul>
