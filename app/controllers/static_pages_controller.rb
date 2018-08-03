@@ -7,7 +7,7 @@ class StaticPagesController < ApplicationController
       puts "Nop!"
       puts logged_in?
       redirect_to "/sessions/new"
-      flash[:danger] = "Tu n'as pas le droit de faire ça !"
+      flash[:danger] = "Un secret ça se mérite !"
     end
   end
 end

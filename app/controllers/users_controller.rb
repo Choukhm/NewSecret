@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   end
 
   def new
-    @user = User.new(email: "example@example.com", password: "cococo", password_confirmation: "cococo")
+    @user = User.new(email: "hello@world.com", password: "yourlogin", password_confirmation: "yourlogin")
   end
 
   def create
